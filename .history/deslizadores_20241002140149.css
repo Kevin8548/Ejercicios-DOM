@@ -1,0 +1,24 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 6; }
+    .div2 { grid-area: 3 / 2 / 5 / 5; }
+
+    body{
+        background-color: aqua;
+    }
+    
+    h1{
+        align-items: center;
+    }
+    
+    .div2{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+    }

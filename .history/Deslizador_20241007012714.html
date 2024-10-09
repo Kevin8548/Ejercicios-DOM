@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deslizadores</title>
+    <link rel="stylesheet" href="./deslizadores.css">
+</head>
+<body>
+    <h1>Deslizadores</h1>
+    <div class="parent">
+        <div class="div1">
+            <h3>Ancho</h3>
+            <input type="range" id="sliderAncho" min="0" max="300" value="100" step="1">
+            <h3>Alto</h3>
+            <input type="range" id="sliderAlto" min="0" max="300" value="100" step="1">
+            <h3>Borde</h3>
+            <input type="range" id="sliderBorde" min="0" max="50" value="0" step="1">
+        </div>
+        <h3>Sombra</h3>
+        <input type="range" id="sliderSombra" min="0" max="50" value="0" step="1">
+        <div class="div2"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

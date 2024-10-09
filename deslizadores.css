@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.si{
+    float:left
+    
+}

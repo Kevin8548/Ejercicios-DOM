@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deslizadores</title>
+    <link rel="stylesheet" href="deslizadores.css">
+</head>
+<body>
+    <h1>Controla el tamaño y estilo del div</h1>
+    <div class="controls">
+        <h3>Ancho</h3>
+        <input type="range" id="sliderAncho" min="50" max="300" value="100" step="1">
+        <h3>Alto</h3>
+        <input type="range" id="sliderAlto" min="50" max="300" value="100" step="1">
+        <h3>Borde</h3>
+        <input type="range" id="sliderBorde" min="0" max="50" value="0" step="1">
+        <h3>Sombra</h3>
+        <input type="range" id="sliderSombra" min="0" max="50" value="0" step="1">
+    </div>
+    <div class="box"></div>
+
+    <script src="./colorsbg/deslizador.js"></script>
+</body>
+</html>

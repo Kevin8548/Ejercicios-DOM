@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 0 auto;
+    transition: all 0.2s; /* Suavizar transiciones */
+}

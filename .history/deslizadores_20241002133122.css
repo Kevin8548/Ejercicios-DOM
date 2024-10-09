@@ -1,0 +1,15 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 5; }
+    .div2 { grid-area: 3 / 3 / 4 / 4; }
+
+body{
+    background-color: aqua;
+    align-items: center;
+}
