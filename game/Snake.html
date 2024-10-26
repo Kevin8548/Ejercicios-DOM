@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        button{
+            background-color: aquamarine;
+            border-radius: 30%;
+            width: 8%;
+            height: 5%;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            place-items: center;
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-family: 'SilkscreenRegular', sans-serif;
+        }
+        #lienzo{
+            background-color: orange;
+            /* background-image:url(./6339d13226f1518112ec8d4f6f5ee421.gif);
+            opacity: 80%; */
+            
+        }
+        @font-face {
+            font-family: 'SilkscreenBold';
+            src: url('./Silkscreen/Silkscreen-Bold.ttf') format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi juego con JavaScript</h1>
+        <canvas id="lienzo" width="600" height="400"></canvas>
+    </div>
+    <script src="./app.js"></script>
+    <a href="../index.html"><button>Regresar</button></a>
+</body>
+</html>
